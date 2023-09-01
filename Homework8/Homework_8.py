@@ -1,5 +1,5 @@
 class Auto:
-    def __init__(self, brand, age, color, mark, weight):
+    def __init__(self, brand, age, mark, color = None, weight = None):
         self.brand = brand
         self.age = age
         self.color = color
@@ -22,7 +22,7 @@ class Truck(Auto):
 class Car(Auto):
     pass
 # Пример использования класса
-my_auto = Auto(brand="Volkswagen", age=40, color="Grean", mark="Golf II", weight=900)
+my_auto = Auto(brand, age, color, mark, weight)
 print(f"Brand: {my_auto.brand}")
 print(f"Age: {my_auto.age}")
 print(f"Color: {my_auto.color}")

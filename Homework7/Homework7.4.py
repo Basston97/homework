@@ -1,4 +1,4 @@
-import json
+ import json
 import csv
 
 # Чтение данных из JSON-файла
